@@ -1,0 +1,43 @@
+[3:50:20.530] Global cache location '/home/me/.cache/typescript/3.9', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[3:50:20.532] Processing cache location '/home/me/.cache/typescript/3.9'
+[3:50:20.532] Trying to find '/home/me/.cache/typescript/3.9/package.json'...
+[3:50:20.533] Loaded content of '/home/me/.cache/typescript/3.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.519"},"devDependencies":{"@types/eslint":"^7.2.0","@types/glob":"^7.1.3","@types/history":"^4.7.8","@types/mocha":"^7.0.2","@types/object-assign":"^4.0.30","@types/prop-types":"^15.7.3","@types/react":"^17.0.0","@types/react-dom":"^17.0.0","@types/react-router":"^5.1.8","@types/react-router-dom":"^5.1.6","@types/scheduler":"^0.16.1","@types/sprintf":"^0.1.0"}}
+[3:50:20.534] Loaded content of '/home/me/.cache/typescript/3.9/package-lock.json'
+[3:50:20.560] Adding entry into typings cache: 'eslint' => '/home/me/.cache/typescript/3.9/node_modules/@types/eslint/ts3.1/index.d.ts'
+[3:50:20.565] Adding entry into typings cache: 'glob' => '/home/me/.cache/typescript/3.9/node_modules/@types/glob/index.d.ts'
+[3:50:20.569] Adding entry into typings cache: 'history' => '/home/me/.cache/typescript/3.9/node_modules/@types/history/index.d.ts'
+[3:50:20.576] Adding entry into typings cache: 'mocha' => '/home/me/.cache/typescript/3.9/node_modules/@types/mocha/index.d.ts'
+[3:50:20.579] Adding entry into typings cache: 'object-assign' => '/home/me/.cache/typescript/3.9/node_modules/@types/object-assign/index.d.ts'
+[3:50:20.583] Adding entry into typings cache: 'prop-types' => '/home/me/.cache/typescript/3.9/node_modules/@types/prop-types/index.d.ts'
+[3:50:20.589] Adding entry into typings cache: 'react' => '/home/me/.cache/typescript/3.9/node_modules/@types/react/index.d.ts'
+[3:50:20.596] Adding entry into typings cache: 'react-dom' => '/home/me/.cache/typescript/3.9/node_modules/@types/react-dom/index.d.ts'
+[3:50:20.605] Adding entry into typings cache: 'react-router' => '/home/me/.cache/typescript/3.9/node_modules/@types/react-router/index.d.ts'
+[3:50:20.609] Adding entry into typings cache: 'react-router-dom' => '/home/me/.cache/typescript/3.9/node_modules/@types/react-router-dom/index.d.ts'
+[3:50:20.612] Adding entry into typings cache: 'scheduler' => '/home/me/.cache/typescript/3.9/node_modules/@types/scheduler/index.d.ts'
+[3:50:20.615] Adding entry into typings cache: 'sprintf' => '/home/me/.cache/typescript/3.9/node_modules/@types/sprintf/index.d.ts'
+[3:50:20.615] Finished processing cache location '/home/me/.cache/typescript/3.9'
+[3:50:20.616] Process id: 46949
+[3:50:20.616] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[3:50:20.616] validateDefaultNpmLocation: false
+[3:50:20.616] Npm config file: /home/me/.cache/typescript/3.9/package.json
+[3:50:20.616] Updating types-registry npm package...
+[3:50:20.616] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[3:50:22.803]     Succeeded. stdout:
+    + types-registry@0.1.519
+    updated 1 package and audited 18 packages in 0.907s
+found 0 vulnerabilities
+
+
+[3:50:22.803] Updated types-registry npm package
+[3:50:24.697] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/me/js/dj/life/frontend/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/me/js/dj/life/frontend/src","kind":"discover"}
+[3:50:24.726] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[3:50:24.727] Explicitly included types: []
+[3:50:24.729] Inferred typings from unresolved imports: []
+[3:50:24.729] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:50:24.729] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:50:24.730] DirectoryWatcher:: Added:: WatchInfo: /home/me/js/dj/life/frontend/src/bower_components
+[3:50:24.734] DirectoryWatcher:: Added:: WatchInfo: /home/me/js/dj/life/frontend/src/node_modules
+[3:50:24.735] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[3:50:24.736] Response has been sent.
+[3:50:24.736] No new typings were requested as a result of typings discovery

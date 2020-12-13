@@ -1,0 +1,20 @@
+export default class World{
+    state = {
+	preset: []
+    };
+
+    componentDidMount(){
+	this.getPreset();
+    }
+
+    getPreset() {
+	axios
+	    .get('http://127.0.0.1:8000/api/worlds/1/')
+	    .then(res => {
+		console.log(res.data.preset)
+	    }).catch(err => {
+		console.log(err);
+	    });
+    }
+
+}

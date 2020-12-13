@@ -1,0 +1,116 @@
+[3:29:47.753] Global cache location '/home/me/.cache/typescript/3.9', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[3:29:47.756] Processing cache location '/home/me/.cache/typescript/3.9'
+[3:29:47.756] Trying to find '/home/me/.cache/typescript/3.9/package.json'...
+[3:29:47.757] Loaded content of '/home/me/.cache/typescript/3.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.519"},"devDependencies":{"@types/eslint":"^7.2.0","@types/glob":"^7.1.3","@types/history":"^4.7.8","@types/mocha":"^7.0.2","@types/object-assign":"^4.0.30","@types/prop-types":"^15.7.3","@types/react":"^17.0.0","@types/react-dom":"^17.0.0","@types/react-router":"^5.1.8","@types/react-router-dom":"^5.1.6","@types/scheduler":"^0.16.1","@types/sprintf":"^0.1.0"}}
+[3:29:47.758] Loaded content of '/home/me/.cache/typescript/3.9/package-lock.json'
+[3:29:47.777] Adding entry into typings cache: 'eslint' => '/home/me/.cache/typescript/3.9/node_modules/@types/eslint/ts3.1/index.d.ts'
+[3:29:47.781] Adding entry into typings cache: 'glob' => '/home/me/.cache/typescript/3.9/node_modules/@types/glob/index.d.ts'
+[3:29:47.784] Adding entry into typings cache: 'history' => '/home/me/.cache/typescript/3.9/node_modules/@types/history/index.d.ts'
+[3:29:47.788] Adding entry into typings cache: 'mocha' => '/home/me/.cache/typescript/3.9/node_modules/@types/mocha/index.d.ts'
+[3:29:47.793] Adding entry into typings cache: 'object-assign' => '/home/me/.cache/typescript/3.9/node_modules/@types/object-assign/index.d.ts'
+[3:29:47.797] Adding entry into typings cache: 'prop-types' => '/home/me/.cache/typescript/3.9/node_modules/@types/prop-types/index.d.ts'
+[3:29:47.802] Adding entry into typings cache: 'react' => '/home/me/.cache/typescript/3.9/node_modules/@types/react/index.d.ts'
+[3:29:47.809] Adding entry into typings cache: 'react-dom' => '/home/me/.cache/typescript/3.9/node_modules/@types/react-dom/index.d.ts'
+[3:29:47.816] Adding entry into typings cache: 'react-router' => '/home/me/.cache/typescript/3.9/node_modules/@types/react-router/index.d.ts'
+[3:29:47.822] Adding entry into typings cache: 'react-router-dom' => '/home/me/.cache/typescript/3.9/node_modules/@types/react-router-dom/index.d.ts'
+[3:29:47.825] Adding entry into typings cache: 'scheduler' => '/home/me/.cache/typescript/3.9/node_modules/@types/scheduler/index.d.ts'
+[3:29:47.827] Adding entry into typings cache: 'sprintf' => '/home/me/.cache/typescript/3.9/node_modules/@types/sprintf/index.d.ts'
+[3:29:47.827] Finished processing cache location '/home/me/.cache/typescript/3.9'
+[3:29:47.827] Process id: 46208
+[3:29:47.827] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[3:29:47.827] validateDefaultNpmLocation: false
+[3:29:47.828] Npm config file: /home/me/.cache/typescript/3.9/package.json
+[3:29:47.828] Updating types-registry npm package...
+[3:29:47.828] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[3:29:50.752]     Succeeded. stdout:
+    + types-registry@0.1.519
+    updated 1 package and audited 18 packages in 1.106s
+found 0 vulnerabilities
+
+
+[3:29:50.753] Updated types-registry npm package
+[3:29:51.828] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/me/js/dj/life/frontend/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/me/js/dj/life/frontend/src","kind":"discover"}
+[3:29:51.864] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[3:29:51.865] Explicitly included types: []
+[3:29:51.866] Inferred typings from unresolved imports: []
+[3:29:51.866] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:29:51.866] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:29:51.867] DirectoryWatcher:: Added:: WatchInfo: /home/me/js/dj/life/frontend/src/bower_components
+[3:29:51.870] DirectoryWatcher:: Added:: WatchInfo: /home/me/js/dj/life/frontend/src/node_modules
+[3:29:51.871] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[3:29:51.871] Response has been sent.
+[3:29:51.871] No new typings were requested as a result of typings discovery
+[3:30:10.452] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/me/js/dj/life/frontend/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["a"],"projectRootPath":"/home/me/js/dj/life/frontend/src","kind":"discover"}
+[3:30:10.453] Explicitly included types: []
+[3:30:10.454] Inferred typings from unresolved imports: ["a"]
+[3:30:10.454] Result: {"cachedTypingPaths":[],"newTypingNames":["a"],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:10.454] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["a"],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:10.454] Installing typings ["a"]
+[3:30:10.455] 'a':: Entry for package 'a' does not exist in local types registry - skipping...
+[3:30:10.455] All typings are known to be missing or invalid - no need to install more typings
+[3:30:10.455] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["a"],"kind":"action::set"}
+[3:30:10.455] Response has been sent.
+[3:30:11.985] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/me/js/dj/life/frontend/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["axi"],"projectRootPath":"/home/me/js/dj/life/frontend/src","kind":"discover"}
+[3:30:11.986] Explicitly included types: []
+[3:30:11.987] Inferred typings from unresolved imports: ["axi"]
+[3:30:11.987] Result: {"cachedTypingPaths":[],"newTypingNames":["axi"],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:11.987] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["axi"],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:11.987] Installing typings ["axi"]
+[3:30:11.988] 'axi':: Entry for package 'axi' does not exist in local types registry - skipping...
+[3:30:11.988] All typings are known to be missing or invalid - no need to install more typings
+[3:30:11.988] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["axi"],"kind":"action::set"}
+[3:30:11.988] Response has been sent.
+[3:30:12.448] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/me/js/dj/life/frontend/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/me/js/dj/life/frontend/src","kind":"discover"}
+[3:30:12.448] Explicitly included types: []
+[3:30:12.449] Inferred typings from unresolved imports: []
+[3:30:12.449] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:12.449] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:12.449] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[3:30:12.449] Response has been sent.
+[3:30:12.449] No new typings were requested as a result of typings discovery
+[3:30:30.801] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/me/js/dj/life/frontend/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["re"],"projectRootPath":"/home/me/js/dj/life/frontend/src","kind":"discover"}
+[3:30:30.802] Explicitly included types: []
+[3:30:30.802] Inferred typings from unresolved imports: ["re"]
+[3:30:30.802] Result: {"cachedTypingPaths":[],"newTypingNames":["re"],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:30.802] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["re"],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:30.802] Installing typings ["re"]
+[3:30:30.802] 're':: Entry for package 're' does not exist in local types registry - skipping...
+[3:30:30.802] All typings are known to be missing or invalid - no need to install more typings
+[3:30:30.802] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["re"],"kind":"action::set"}
+[3:30:30.802] Response has been sent.
+[3:30:30.909] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/me/js/dj/life/frontend/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["rea"],"projectRootPath":"/home/me/js/dj/life/frontend/src","kind":"discover"}
+[3:30:30.909] Explicitly included types: []
+[3:30:30.909] Inferred typings from unresolved imports: ["rea"]
+[3:30:30.909] Result: {"cachedTypingPaths":[],"newTypingNames":["rea"],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:30.910] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["rea"],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:30.910] Installing typings ["rea"]
+[3:30:30.910] 'rea':: Entry for package 'rea' does not exist in local types registry - skipping...
+[3:30:30.910] All typings are known to be missing or invalid - no need to install more typings
+[3:30:30.910] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["rea"],"kind":"action::set"}
+[3:30:30.910] Response has been sent.
+[3:30:31.43] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/me/js/dj/life/frontend/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["rea"],"projectRootPath":"/home/me/js/dj/life/frontend/src","kind":"discover"}
+[3:30:31.43] Explicitly included types: []
+[3:30:31.43] Inferred typings from unresolved imports: ["rea"]
+[3:30:31.43] Result: {"cachedTypingPaths":[],"newTypingNames":["rea"],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:31.43] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["rea"],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:31.43] Installing typings ["rea"]
+[3:30:31.43] 'rea':: Entry for package 'rea' does not exist in local types registry - skipping...
+[3:30:31.43] All typings are known to be missing or invalid - no need to install more typings
+[3:30:31.43] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["rea"],"kind":"action::set"}
+[3:30:31.44] Response has been sent.
+[3:30:31.726] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/me/js/dj/life/frontend/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/me/js/dj/life/frontend/src","kind":"discover"}
+[3:30:31.727] Explicitly included types: []
+[3:30:31.727] Inferred typings from unresolved imports: []
+[3:30:31.727] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:31.727] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/me/js/dj/life/frontend/src/bower_components","/home/me/js/dj/life/frontend/src/node_modules"]}
+[3:30:31.727] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[3:30:31.727] Response has been sent.
+[3:30:31.727] No new typings were requested as a result of typings discovery
